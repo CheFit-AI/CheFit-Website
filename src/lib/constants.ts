@@ -4,7 +4,7 @@ export const SITE_CONFIG = {
   title: "ChefLink - Fresh Home-Cooked Meals On Demand",
   description: "Book vetted chefs to cook fresh, healthy meals at your home. No middleman, just great food.",
   url: "https://cheflink.in",
-  ogImage: "/images/hero.png",
+  ogImage: "/public/images/hero.png",
 };
 
 export const NAVIGATION = [
