@@ -4,6 +4,9 @@ const nextConfig: NextConfig = {
   // Enable static export for GitHub Pages
   output: "export",
 
+  // GitHub Pages base path (repo name)
+  basePath: "/CheFit-Website",
+
   // Image optimization settings
   images: {
     unoptimized: true, // Required for static export
