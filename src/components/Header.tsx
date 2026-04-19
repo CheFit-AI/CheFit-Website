@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { NAVIGATION } from "@/lib/constants";
+import { HERO, NAVIGATION } from "@/lib/constants";
 
 const BASEPATH = "/CheFit-Website";
 
@@ -38,7 +38,7 @@ export default function Header() {
 
           {/* CTA Button */}
           <button className="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition-colors text-sm font-semibold">
-            Join Waitlist
+            <a href={HERO.ctaPrimaryLink}>Join Waitlist</a>
           </button>
         </div>
       </div>
