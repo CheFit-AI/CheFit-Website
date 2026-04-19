@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 @import "tailwindcss";
 
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,38 +10,53 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 18px; /* base for mobile; Tailwind will scale as needed */
 }
 
 body {
   background-color: #ffffff;
-  color: #1f2937;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  color: #0f172a; /* slightly darker for contrast */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  font-weight: 400;
 }
+
+/* Headings scale */
+h1, h2, h3, h4 {
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+  color: #0b1220;
+  font-weight: 600;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.3rem; }
+
+/* Section spacing */
+section { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+
+/* Container tweaks */
+.container { max-width: 1100px; margin: 0 auto; padding-left: 1rem; padding-right: 1rem; }
+
+/* Buttons - slightly larger */
+button { font-size: 1rem; padding: 0.75rem 1rem; }
+
+/* Utility tweaks for components */
+.header-padding { padding: 1rem 0; }
+.hero-heading { font-size: 2.4rem; font-weight: 700; }
+.card { padding: 1.25rem; border-radius: 0.75rem; }
 
 /* Smooth scroll anchor links */
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 /* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #ea580c;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #d94807;
-}
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #ea580c; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #d94807; }
 

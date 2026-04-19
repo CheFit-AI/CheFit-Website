@@ -17,8 +17,8 @@ export const NAVIGATION = [
 ];
 
 export const HERO = {
-  headline: "Home-Cooked Meals, On Demand",
-  subheading: "Book vetted chefs to cook fresh, healthy meals at your home",
+  headline: "Home-cooked meals — effortless",
+  subheading: "Book a vetted chef to cook fresh meals at your home",
   ctaPrimary: "Join Waitlist",
   ctaSecondary: "Download App",
 };
