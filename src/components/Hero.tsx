@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { HERO, CTA } from "@/lib/constants";
 
+const BASEPATH = "/CheFit-Website";
+
 export default function Hero() {
   return (
     <section className="relative w-full bg-gradient-to-b from-orange-50 to-white py-20 md:py-32">
@@ -36,10 +38,11 @@ export default function Hero() {
           {/* Right: Hero Image */}
           <div className="relative w-full h-96 md:h-[500px] rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/hero.png"
+              src={`${BASEPATH}/images/hero.png`}
               alt="Chef cooking fresh meal at home"
-              fill
-              className="object-cover"
+              width={600}
+              height={500}
+              className="object-cover w-full h-full"
               priority
             />
           </div>

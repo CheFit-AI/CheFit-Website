@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { NAVIGATION } from "@/lib/constants";
 
+const BASEPATH = "/CheFit-Website";
+
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
@@ -10,7 +12,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/images/logo.jpg"
+              src={`${BASEPATH}/images/logo.jpg`}
               alt="ChefLink Logo"
               width={40}
               height={40}
