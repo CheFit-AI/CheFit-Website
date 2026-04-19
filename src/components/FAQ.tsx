@@ -60,7 +60,7 @@ export default function FAQSection() {
             Contact us via WhatsApp or email. We respond within minutes!
           </p>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/918019551129"
             className="inline-block bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             Chat on WhatsApp

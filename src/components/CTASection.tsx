@@ -30,7 +30,7 @@ export default function CTASection() {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors font-semibold"
             >
-              <span className="text-2xl">🍎</span>
+              <span className="text-2xl"></span>
               <div className="text-left">
                 <div className="text-xs">Download on</div>
                 <div className="text-lg">App Store</div>
@@ -42,7 +42,7 @@ export default function CTASection() {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors font-semibold"
             >
-              <span className="text-2xl">🤖</span>
+              <span className="text-2xl"></span>
               <div className="text-left">
                 <div className="text-xs">Get it on</div>
                 <div className="text-lg">Google Play</div>

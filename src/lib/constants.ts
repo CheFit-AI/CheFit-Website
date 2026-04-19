@@ -20,7 +20,8 @@ export const HERO = {
   headline: "Home-cooked meals — effortless",
   subheading: "Book a vetted chef to cook fresh meals at your home",
   ctaPrimary: "Join Waitlist",
-  ctaSecondary: "Download App",
+  ctaSecondary: "App Launch Soon!",
+  ctaPrimaryLink: "https://forms.gle/8ue3qJCKRSVEXSBU7"
 };
 
 export const VALUE_PROPOSITION = {
@@ -209,7 +210,7 @@ export const FAQ = [
   {
     question: "Is ChefLink available in my city?",
     answer:
-      "We're currently launching in Delhi NCR, Mumbai, Bangalore, and Hyderabad. Join the waitlist and we'll notify you when we're live in your area!",
+      "We're currently launching in Hyderabad. Join the waitlist and we'll notify you when we're live in your area!",
   },
   {
     question: "Can I request specific ingredients or dietary preferences?",

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { HERO, CTA } from "@/lib/constants";
+import { HERO } from "@/lib/constants";
 
 const BASEPATH = "/CheFit-Website";
 
@@ -20,7 +20,7 @@ export default function Hero() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3 pt-3">
               <button className="bg-orange-600 text-white px-6 py-2.5 rounded-md hover:bg-orange-700 transition-colors font-semibold text-sm">
-                {HERO.ctaPrimary}
+                <a href={HERO.ctaPrimaryLink}>{HERO.ctaPrimary}</a>
               </button>
               <button className="bg-gray-200 text-gray-800 px-6 py-2.5 rounded-md hover:bg-gray-300 transition-colors font-semibold text-sm">
                 {HERO.ctaSecondary}
