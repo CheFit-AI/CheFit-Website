@@ -17,15 +17,15 @@ export default function ValueProposition() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Customers */}
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 md:p-12">
-            <h3 className="text-3xl font-bold text-gray-900 mb-2">
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 md:p-8">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-2">
               {customers.title}
             </h3>
-            <p className="text-gray-700 mb-8">{customers.description}</p>
-            <div className="space-y-6">
+            <p className="text-gray-700 mb-6">{customers.description}</p>
+            <div className="space-y-4">
               {customers.points.map((point, idx) => (
                 <div key={idx} className="flex gap-4">
-                  <div className="text-3xl flex-shrink-0">{point.icon}</div>
+                  <div className="text-2xl flex-shrink-0">{point.icon}</div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">
                       {point.title}

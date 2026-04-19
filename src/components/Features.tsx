@@ -13,17 +13,17 @@ export default function Features() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {FEATURES.map((feature, idx) => (
             <div
               key={idx}
-              className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 hover:shadow-lg transition-shadow"
+              className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition-shadow"
             >
-              <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <div className="text-3xl mb-3">{feature.icon}</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">
                 {feature.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 text-sm">
                 {feature.description}
               </p>
             </div>

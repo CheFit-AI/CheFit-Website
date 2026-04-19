@@ -26,43 +26,43 @@ export const HERO = {
 export const VALUE_PROPOSITION = {
   customers: {
     title: "For Customers",
-    description: "Enjoy healthy, home-cooked meals without the effort",
+    description: "Healthy, home-cooked meals with zero fuss",
     points: [
       {
         icon: "🍽️",
         title: "Fresh & Healthy",
-        description: "Nutritious meals cooked in your kitchen with premium ingredients",
+        description: "Meals cooked at your home",
       },
       {
         icon: "💰",
-        title: "Affordable Pricing",
-        description: "₹500–800 per session. Save ₹1000+/week vs. daily Swiggy/Zomato",
+        title: "Transparent Pricing",
+        description: "Typical sessions: ₹500–800",
       },
       {
         icon: "✓",
         title: "Vetted Chefs",
-        description: "Every chef is background-checked, reviewed, and rated by customers",
+        description: "Verified cooks you can trust",
       },
     ],
   },
   chefs: {
     title: "For Chefs",
-    description: "Earn consistently without middlemen taking a cut",
+    description: "Flexible bookings, fair earnings",
     points: [
       {
         icon: "💸",
-        title: "Keep 100% Earnings",
-        description: "No commission. Flexible work whenever you want",
+        title: "Fair Pay",
+        description: "Set your price, get steady customers",
       },
       {
         icon: "📱",
-        title: "Professional Platform",
-        description: "Booking management, ratings, and secure payments built in",
+        title: "Easy Management",
+        description: "Simple bookings and earnings view",
       },
       {
         icon: "⭐",
-        title: "Build Your Reputation",
-        description: "5-star ratings and customer reviews grow your brand",
+        title: "Grow Your Profile",
+        description: "Ratings help you get repeat bookings",
       },
     ],
   },
@@ -96,36 +96,12 @@ export const HOW_IT_WORKS = [
 ];
 
 export const FEATURES = [
-  {
-    icon: "📊",
-    title: "Real-Time Tracking",
-    description: "Track your chef's arrival and meal prep progress in real-time",
-  },
-  {
-    icon: "💳",
-    title: "UPI Payments",
-    description: "Fast, secure payments via UPI. No card required",
-  },
-  {
-    icon: "⭐",
-    title: "Vetted & Rated Chefs",
-    description: "Every chef verified. Read 100+ reviews before booking",
-  },
-  {
-    icon: "🔔",
-    title: "Smart Notifications",
-    description: "Get notified at every step: booking, arrival, meal ready",
-  },
-  {
-    icon: "🔄",
-    title: "Easy Re-booking",
-    description: "Save favorite chefs and meals for one-tap re-booking",
-  },
-  {
-    icon: "💬",
-    title: "WhatsApp Support",
-    description: "Chat with support instantly via WhatsApp. Issues solved in minutes",
-  },
+  { icon: "📊", title: "Real-Time Tracking", description: "See chef status live" },
+  { icon: "💳", title: "UPI Payments", description: "Fast, secure UPI checkout" },
+  { icon: "⭐", title: "Vetted Chefs", description: "Verified cooks with ratings" },
+  { icon: "🔔", title: "Notifications", description: "Timely booking updates" },
+  { icon: "🔄", title: "Re-booking", description: "Save favorites and rebook" },
+  { icon: "💬", title: "Support", description: "WhatsApp support when needed" },
 ];
 
 export const COMPARISON = {
