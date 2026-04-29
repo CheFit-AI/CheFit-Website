@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 pt-3">
-              <Link href={HERO.ctaPrimaryLink} aria-label="Join waitlist" className="inline-flex items-center justify-center bg-orange-600 text-white px-6 py-2.5 rounded-md hover:bg-orange-700 transition-colors font-semibold text-sm">
+              <Link href={HERO.ctaPrimaryLink} aria-label="Join waitlist" className="w-full sm:w-auto inline-flex items-center justify-center bg-orange-600 text-white px-6 py-2.5 rounded-md hover:bg-orange-700 transition-colors font-semibold text-sm">
                 {HERO.ctaPrimary}
               </Link>
               <button className="bg-white border border-gray-200 text-gray-800 px-6 py-2.5 rounded-md hover:bg-gray-50 transition-colors font-semibold text-sm" aria-label="App launching soon">

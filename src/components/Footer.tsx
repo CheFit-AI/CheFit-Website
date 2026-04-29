@@ -64,7 +64,7 @@ export default function Footer() {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-orange-400 transition-colors text-xl"
+                  className="p-2 rounded-md hover:text-orange-400 transition-colors text-xl"
                   title={social.name}
                 >
                   {social.name === "Instagram" && "📷"}

@@ -28,7 +28,7 @@ export default function CTASection() {
               href={CTA.appStoreUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors font-semibold"
+              className="w-full sm:w-auto flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors font-semibold"
             >
               <span className="text-2xl"></span>
               <div className="text-left">
@@ -40,7 +40,7 @@ export default function CTASection() {
               href={CTA.playStoreUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors font-semibold"
+              className="w-full sm:w-auto flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors font-semibold"
             >
               <span className="text-2xl"></span>
               <div className="text-left">

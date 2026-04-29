@@ -41,6 +41,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* Mobile viewport for responsive scaling */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Google Analytics */}
         <script
           async
