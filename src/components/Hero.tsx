@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { HERO } from "@/lib/constants";
 
-const BASEPATH = "/CheFit-Website";
+const BASEPATH = process.env.NEXT_PUBLIC_BASEPATH || "";
 
 export default function Hero() {
   return (

@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { HERO, NAVIGATION } from "@/lib/constants";
 
-const BASEPATH = "/CheFit-Website";
+const BASEPATH = process.env.NEXT_PUBLIC_BASEPATH || "";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
