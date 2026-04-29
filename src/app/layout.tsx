@@ -38,11 +38,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const BASEPATH = process.env.NEXT_PUBLIC_BASEPATH || "";
+
   return (
     <html lang="en" className="scroll-smooth">
       <head>
         {/* Mobile viewport for responsive scaling */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Favicon / touch icon */}
+        <link rel="icon" href={`${BASEPATH}/images/logo.jpg`} />
+        <link rel="apple-touch-icon" href={`${BASEPATH}/images/logo.jpg`} />
         {/* Google Analytics */}
         <script
           async
