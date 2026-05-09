@@ -36,6 +36,20 @@ body {
   line-height: 1.6;
   font-weight: 400;
   -webkit-font-feature-settings: "liga" on;
+
+  /* Ensure comfortable horizontal padding on small devices and respect safe areas */
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  /* Use iOS safe-area insets when available (overrides above) */
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+
+  /* Remove extra body padding on larger screens where containers set spacing */
+  @media (min-width: 640px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /* Accessible focus states */
