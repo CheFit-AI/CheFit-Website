@@ -41,7 +41,7 @@ export default function Testimonials() {
         {/* Trust Stats */}
         <div className="mt-20 grid grid-cols-3 gap-8 bg-gray-50 rounded-xl p-8 md:p-12">
           <div className="text-center">
-            <p className="text-4xl font-bold text-orange-600">1000+</p>
+            <p className="text-4xl font-bold text-orange-600">20+</p>
             <p className="text-gray-600 mt-2">Verified Chefs</p>
           </div>
           <div className="text-center">

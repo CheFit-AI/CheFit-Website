@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
 
             <div className="flex items-center gap-4 pt-3 text-sm text-gray-600">
-              <div className="flex items-center gap-2"><span className="text-orange-600 font-semibold">✓</span><span>1000+ Chefs</span></div>
+              <div className="flex items-center gap-2"><span className="text-orange-600 font-semibold">✓</span><span>20+ Chefs</span></div>
               <div className="flex items-center gap-2"><span className="text-orange-600 font-semibold">✓</span><span>4.9★ rating</span></div>
               <div className="flex items-center gap-2"><span className="text-orange-600 font-semibold">✓</span><span>Secure payments</span></div>
             </div>
