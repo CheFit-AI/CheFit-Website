@@ -1,6 +1,6 @@
-# ChefLink Website - Deployment Guide
+# CheFit Website - Deployment Guide
 
-This guide covers deploying the ChefLink marketing website to **GitHub Pages** with a custom domain via Hostinger.
+This guide covers deploying the CheFit marketing website to **GitHub Pages** with a custom domain via Hostinger.
 
 ## 📋 Pre-Deployment Checklist
 
@@ -9,7 +9,7 @@ This guide covers deploying the ChefLink marketing website to **GitHub Pages** w
 - [ ] Test locally: `npm run dev` and verify all pages work
 - [ ] Run linting: `npm run lint`
 - [ ] Set up Google Analytics 4 account
-- [ ] Have your custom domain ready (e.g., cheflink.in)
+- [ ] Have your custom domain ready (e.g., CheFit.in)
 - [ ] GitHub account created
 - [ ] Hostinger account with DNS access
 
@@ -20,13 +20,13 @@ This guide covers deploying the ChefLink marketing website to **GitHub Pages** w
 ### Step 1: Create GitHub Repository
 
 1. **Go to GitHub** and create a new repository:
-   - Repository name: `cheflink-website` (or your preference)
+   - Repository name: `chefit-website` (or your preference)
    - Visibility: Public
    - Don't initialize with README (we have one)
 
 2. **Push your code**:
    ```bash
-   cd C:\Users\Vansh\cheflink-website
+   cd C:\Users\Vansh\chefit-website
 
    # If not already initialized
    git init
@@ -35,7 +35,7 @@ This guide covers deploying the ChefLink marketing website to **GitHub Pages** w
    git branch -M main
 
    # Add remote (replace with your repo URL)
-   git remote add origin https://github.com/yourusername/cheflink-website.git
+   git remote add origin https://github.com/yourusername/chefit-website.git
 
    # Push
    git push -u origin main
@@ -61,13 +61,13 @@ This creates a `/out` directory with all static HTML files.
 
 3. **Wait for deployment** (2-5 minutes)
    - You'll see a green checkmark when deployment succeeds
-   - GitHub will show your site URL: `https://yourusername.github.io/cheflink-website`
+   - GitHub will show your site URL: `https://yourusername.github.io/chefit-website`
 
 ### Step 4: Configure Custom Domain (Hostinger)
 
 #### 4.1 In GitHub:
 1. Go to repository Settings → Pages
-2. Under "Custom domain", enter your domain: `cheflink.in`
+2. Under "Custom domain", enter your domain: `chefit.in`
 3. Click Save
 4. **Don't** check "Enforce HTTPS" yet (wait for DNS propagation)
 
@@ -85,7 +85,7 @@ This creates a `/out` directory with all static HTML files.
    - **TTL**: 3600 (default)
    - **Save**
 
-   **Alternative for subdomain** (www.cheflink.in):
+   **Alternative for subdomain** (www.CheFit.in):
    - **Name**: `www`
    - **Type**: `CNAME`
    - **Value**: `yourusername.github.io`
@@ -96,7 +96,7 @@ This creates a `/out` directory with all static HTML files.
 
 ```bash
 # Check CNAME record
-nslookup cheflink.in
+nslookup CheFit.in
 
 # Should show: yourusername.github.io
 ```
@@ -127,20 +127,20 @@ git push -u origin main
 1. **Go to [vercel.com](https://vercel.com)**
 2. **Click "New Project"**
 3. **Select GitHub** and authorize
-4. **Choose your repository**: `cheflink-website`
+4. **Choose your repository**: `chefit-website`
 5. **Configure**:
    - Framework: Next.js
    - Root Directory: ./
    - Environment Variables:
      - `NEXT_PUBLIC_GA_ID`: Your Google Analytics ID
-     - `NEXT_PUBLIC_SITE_URL`: https://cheflink.in
+     - `NEXT_PUBLIC_SITE_URL`: https://chefit.in
 
 6. **Click Deploy**
 
 ### Step 3: Set Custom Domain
 
 1. **In Vercel project settings**:
-   - Domains → Add → Enter `cheflink.in`
+   - Domains → Add → Enter `chefit.in`
 
 2. **In Hostinger DNS**:
    - Add the DNS records shown by Vercel (usually A records)
@@ -243,7 +243,7 @@ Same as GitHub Pages - automatic deployment on push.
 
 ```bash
 # Test OG tags
-curl -s https://cheflink.in | grep og:
+curl -s https://chefit.in | grep og:
 
 # Check performance
 # Use Google PageSpeed Insights: https://pagespeed.web.dev/
@@ -269,7 +269,7 @@ curl -s https://cheflink.in | grep og:
 
 **Solution**:
 - Check CNAME record in Hostinger DNS
-- Wait for DNS propagation (check with `nslookup cheflink.in`)
+- Wait for DNS propagation (check with `nslookup CheFit.in`)
 - Try clearing browser cache (Ctrl+Shift+Delete)
 
 ### Issue: HTTPS not working
@@ -359,4 +359,4 @@ After 1 month of launch, target:
 
 ---
 
-Built with ❤️ for ChefLink. Good luck with your launch! 🚀
+Built with ❤️ for CheFit. Good luck with your launch! 🚀

@@ -14,15 +14,15 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2" aria-label="ChefLink home">
+          <Link href="/" className="flex items-center gap-2" aria-label="CheFit home">
             <Image
               src={`${BASEPATH}/images/logo.jpg`}
-              alt="ChefLink Logo"
+              alt="CheFit Logo"
               width={40}
               height={40}
               className="rounded"
             />
-            <span className="text-xl font-bold text-gray-800 hidden sm:inline">ChefLink</span>
+            <span className="text-xl font-bold text-gray-800 hidden sm:inline">CheFit</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8" aria-label="Primary navigation">

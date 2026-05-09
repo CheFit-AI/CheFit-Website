@@ -11,7 +11,7 @@ export default function ValueProposition() {
             Built for Both
           </h2>
           <p className="text-xl text-gray-600">
-            Whether you want fresh meals or steady income, ChefLink is for you
+            Whether you want fresh meals or steady income, CheFit is for you
           </p>
         </div>
 

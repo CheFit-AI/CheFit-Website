@@ -16,7 +16,7 @@ You now have a **production-ready, fully-responsive marketing website** for Chef
 
 ### Website Location
 ```
-C:\Users\Vansh\cheflink-website/
+C:\Users\Vansh\chefit-website/
 ```
 
 ### Key Directories
@@ -214,7 +214,7 @@ See `DEPLOYMENT.md` for step-by-step instructions.
 ## 📦 File Structure Overview
 
 ```
-cheflink-website/
+chefit-website/
 ├── public/
 │   ├── images/
 │   │   └── hero.png ..................... [REPLACE THIS]

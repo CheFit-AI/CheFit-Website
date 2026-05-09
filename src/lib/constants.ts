@@ -110,37 +110,37 @@ export const COMPARISON = {
   rows: [
     {
       aspect: "Food Quality",
-      cheflink: "Fresh, customized meals",
+      chefit: "Fresh, customized meals",
       foodDelivery: "Bahar ka Khana!",
       domesticCook: "Fresh, customized meals",
     },
     {
       aspect: "Cost per Session",
-      cheflink: "₹200–400",
+      chefit: "₹200–400",
       foodDelivery: "₹400–600 per order (daily adds up)",
       domesticCook: "₹300–500 (very variable)",
     },
     {
       aspect: "Reliability",
-      cheflink: "100% presence guarantee upon order confirmation",
+      chefit: "100% presence guarantee upon order confirmation",
       foodDelivery: "Delayed delivery",
       domesticCook: "Often unreliable, frequent cancellations",
     },
     {
       aspect: "Meal Ingredients",
-      cheflink: "We will send you the grocery list!",
+      chefit: "We will send you the grocery list!",
       foodDelivery: "Menu set by restaurant",
       domesticCook: "Need to manage yourself",
     },
     {
       aspect: "Health Factor",
-      cheflink: "Trained professional chef",
+      chefit: "Trained professional chef",
       foodDelivery: "Heavy on oil & salt",
       domesticCook: "Depends on cook",
     },
     {
       aspect: "Effort Required",
-      cheflink: "Zero effort - healthier",
+      chefit: "Zero effort - healthier",
       foodDelivery: "Zero effort (still eating outside)",
       domesticCook: "Manage hiring, training, quality",
     },
@@ -236,8 +236,8 @@ export const TEAM = [
 export const CTA = {
   primary: "Join Waitlist",
   secondary: "Download App",
-  appStoreUrl: "https://apps.apple.com/app/cheflink",
-  playStoreUrl: "https://play.google.com/store/apps/details?id=com.cheflink",
+  appStoreUrl: "https://apps.apple.com/app/chefit",
+  playStoreUrl: "https://play.google.com/store/apps/details?id=com.chefit",
 };
 
 export const FOOTER = {
@@ -249,9 +249,9 @@ export const FOOTER = {
     { label: "Blog", href: "/blog" },
   ],
   social: [
-    { name: "Instagram", url: "https://instagram.com/cheflink" },
-    { name: "Twitter", url: "https://twitter.com/cheflink" },
-    { name: "LinkedIn", url: "https://linkedin.com/company/cheflink" },
+    { name: "Instagram", url: "https://instagram.com/chefit" },
+    { name: "Twitter", url: "https://twitter.com/chefit" },
+    { name: "LinkedIn", url: "https://linkedin.com/company/chefit" },
   ],
   copyright: "© 2026 CheFit. All rights reserved.",
 };

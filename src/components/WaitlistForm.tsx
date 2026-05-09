@@ -65,7 +65,7 @@ export default function WaitlistForm() {
         <div className="text-3xl mb-2">✓</div>
         <h3 className="font-semibold text-green-900 mb-1">You're on the waitlist!</h3>
         <p className="text-green-700">
-          Check your email for a confirmation. We'll notify you when ChefLink launches in your city.
+          Check your email for a confirmation. We'll notify you when CheFit launches in your city.
         </p>
       </div>
     );

@@ -9,7 +9,7 @@ export default function Testimonials() {
             What Our Users Say
           </h2>
           <p className="text-xl text-gray-600">
-            Hear from real customers and chefs who love ChefLink
+            Hear from real customers and chefs who love CheFit
           </p>
         </div>
 

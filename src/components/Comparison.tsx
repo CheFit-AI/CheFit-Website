@@ -6,7 +6,7 @@ export default function Comparison() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Why Choose ChefLink?
+            Why Choose CheFit?
           </h2>
           <p className="text-xl text-gray-600">
             See how we compare to other options
@@ -38,7 +38,7 @@ export default function Comparison() {
                     {row.aspect}
                   </td>
                   <td className="px-6 py-4 text-gray-700 font-semibold text-orange-600">
-                    {row.cheflink}
+                    {row.chefit}
                   </td>
                   <td className="px-6 py-4 text-gray-600">{row.foodDelivery}</td>
                   <td className="px-6 py-4 text-gray-600">{row.domesticCook}</td>
@@ -55,8 +55,8 @@ export default function Comparison() {
               <h3 className="font-bold text-gray-900 mb-4">{row.aspect}</h3>
               <div className="space-y-3 text-sm">
                 <div>
-                  <p className="text-orange-600 font-semibold">ChefLink</p>
-                  <p className="text-gray-700">{row.cheflink}</p>
+                  <p className="text-orange-600 font-semibold">CheFit</p>
+                  <p className="text-gray-700">{row.chefit}</p>
                 </div>
                 <div>
                   <p className="text-gray-700 font-semibold">Food Delivery</p>

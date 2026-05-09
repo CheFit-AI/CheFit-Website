@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl">🍽️</span>
-              <span className="text-xl font-bold text-white">ChefLink</span>
+              <span className="text-xl font-bold text-white">CheFit</span>
             </div>
             <p className="text-sm">{FOOTER.tagline}</p>
           </div>

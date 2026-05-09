@@ -60,7 +60,7 @@
 - [ ] Update `TESTIMONIALS` (at least 1 real testimonial)
 - [ ] Update `FAQ` with your 10 questions
 - [ ] Update `FOOTER` links and social
-- [ ] Update `SITE_CONFIG` URL if not cheflink.in
+- [ ] Update `SITE_CONFIG` URL if not chefit.in
 - [ ] Update CTA links (app store URLs)
 
 ### Phase 2: Visual Assets
@@ -106,16 +106,16 @@
   ```
 
 ### Phase 6: GitHub Pages Setup
-- [ ] Create GitHub repository: `cheflink-website`
+- [ ] Create GitHub repository: `chefit-website`
 - [ ] Repository must be public
 - [ ] Go to Settings → Pages
 - [ ] Set Source to `main` branch, `/root` folder
 - [ ] Wait for deployment (2-5 minutes)
-- [ ] Site available at `yourusername.github.io/cheflink-website`
+- [ ] Site available at `yourusername.github.io/chefit-website`
 
 ### Phase 7: Custom Domain (Hostinger)
 - [ ] Go to GitHub Settings → Pages
-- [ ] Add custom domain: `cheflink.in`
+- [ ] Add custom domain: `chefit.in`
 - [ ] Go to Hostinger DNS settings
 - [ ] Add CNAME record:
   - Name: `@` or blank
@@ -124,12 +124,12 @@
   - TTL: 3600
   - Save
 - [ ] Wait for DNS propagation (5-30 minutes)
-- [ ] Verify with: `nslookup cheflink.in`
+- [ ] Verify with: `nslookup chefit.in`
 - [ ] Back in GitHub, enable "Enforce HTTPS"
 - [ ] Wait for SSL certificate (automatic, few minutes)
 
 ### Phase 8: Post-Launch Verification
-- [ ] Site loads at custom domain (cheflink.in)
+- [ ] Site loads at custom domain (chefit.in)
 - [ ] All pages load without errors
 - [ ] Hero image displays properly
 - [ ] All links work (internal and external)
@@ -171,7 +171,7 @@
 | **No errors** | 0 errors | ⏳ |
 | **Form works** | Success state shows | ⏳ |
 | **Analytics tracking** | GA4 shows visitors | ⏳ |
-| **Domain points** | cheflink.in → GitHub | ⏳ |
+| **Domain points** | chefit.in → GitHub | ⏳ |
 | **HTTPS enabled** | Green lock icon | ⏳ |
 
 ---
@@ -232,7 +232,7 @@
 
 ### "Domain doesn't point to site"
 - [ ] Verify CNAME record in Hostinger DNS
-- [ ] Check with `nslookup cheflink.in`
+- [ ] Check with `nslookup chefit.in`
 - [ ] Wait up to 24 hours for propagation (usually 5-30 min)
 - [ ] Ensure GitHub Pages is enabled in Settings
 

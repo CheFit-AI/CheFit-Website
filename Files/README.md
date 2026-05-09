@@ -15,7 +15,7 @@ A modern, responsive marketing website for the ChefLink app built with **Next.js
 ## 📁 Project Structure
 
 ```
-cheflink-website/
+chefit-website/
 ├── public/
 │   ├── images/          # Hero image and assets
 │   ├── downloads/       # PDF assets (pamphlets, etc.)
@@ -57,8 +57,8 @@ cheflink-website/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/cheflink-website.git
-   cd cheflink-website
+   git clone https://github.com/yourusername/chefit-website.git
+   cd chefit-website
    ```
 
 2. **Install dependencies**:
@@ -156,7 +156,7 @@ Edit `/tailwind.config.ts` or use Tailwind's utility classes:
    git add .
    git commit -m "Initial commit: ChefLink website"
    git branch -M main
-   git remote add origin https://github.com/yourusername/cheflink-website.git
+   git remote add origin https://github.com/yourusername/chefit-website.git
    git push -u origin main
    ```
 
@@ -174,7 +174,7 @@ Edit `/tailwind.config.ts` or use Tailwind's utility classes:
 
 4. **Configure Custom Domain** (Optional):
    - In Hostinger DNS: Add CNAME record pointing to `yourusername.github.io`
-   - In GitHub: Settings → Pages → Custom domain → `cheflink.in`
+   - In GitHub: Settings → Pages → Custom domain → `chefit.in`
    - GitHub will create `CNAME` file automatically
 
 ### Deploy to Vercel (Alternative)
@@ -207,11 +207,11 @@ AIRTABLE_API_TOKEN=pat_XXXXXXXXXXXX
 NEXT_PUBLIC_AIRTABLE_TABLE_ID=tblXXXXXXXXXXXXXX
 
 # App Store Links (Update when apps go live)
-NEXT_PUBLIC_APP_STORE_URL=https://apps.apple.com/app/cheflink
-NEXT_PUBLIC_PLAY_STORE_URL=https://play.google.com/store/apps/details?id=com.cheflink
+NEXT_PUBLIC_APP_STORE_URL=https://apps.apple.com/app/chefit
+NEXT_PUBLIC_PLAY_STORE_URL=https://play.google.com/store/apps/details?id=com.chefit
 
 # Site Configuration
-NEXT_PUBLIC_SITE_URL=https://cheflink.in
+NEXT_PUBLIC_SITE_URL=https://chefit.in
 ```
 
 ## 📊 Analytics Setup
@@ -270,9 +270,9 @@ MIT License - feel free to use for personal or commercial projects.
 ## 📧 Support
 
 For questions or issues:
-- Email: support@cheflink.in
+- Email: support@chefit.in
 - WhatsApp: +91 98765 43210
-- GitHub Issues: [Open an issue](https://github.com/yourusername/cheflink-website/issues)
+- GitHub Issues: [Open an issue](https://github.com/yourusername/chefit-website/issues)
 
 ## 🎯 Next Steps
 

@@ -24,7 +24,7 @@ const nextConfig: NextConfig = {
 
   // Environment variables
   env: {
-    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || "https://cheflink.in",
+    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || "https://chefit.in",
   },
 };
 

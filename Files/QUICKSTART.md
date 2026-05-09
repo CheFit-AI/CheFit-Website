@@ -4,7 +4,7 @@
 
 ### 1. Install & Start
 ```bash
-cd C:\Users\Vansh\cheflink-website
+cd C:\Users\Vansh\chefit-website
 npm install  # (already done)
 npm run dev
 ```

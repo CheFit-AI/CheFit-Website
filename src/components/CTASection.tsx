@@ -7,7 +7,7 @@ export default function CTASection() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Ready to Try ChefLink?
+            Ready to Try CheFit?
           </h2>
           <p className="text-xl text-gray-600">
             Join thousands who are enjoying fresh, healthy home-cooked meals
@@ -21,7 +21,7 @@ export default function CTASection() {
         {/* App Download Links */}
         <div className="mt-16">
           <p className="text-center text-gray-600 mb-8">
-            ChefLink app is launching soon on:
+            CheFit app is launching soon on:
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <a
