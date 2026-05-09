@@ -1,9 +1,9 @@
-// All website copy and constants for ChefLink marketing website
+// All website copy and constants for CheFit marketing website
 
 export const SITE_CONFIG = {
-  title: "ChefLink - Fresh Home-Cooked Meals On Demand",
+  title: "CheFit - Fresh Home-Cooked Meals On Demand",
   description: "Book vetted chefs to cook fresh, healthy meals at your home. No middleman, just great food.",
-  url: "https://cheflink.in",
+  url: "https://chefit.in",
   ogImage: "./images/hero.png",
 };
 
@@ -37,7 +37,7 @@ export const VALUE_PROPOSITION = {
       {
         icon: "💰",
         title: "Transparent Pricing",
-        description: "Typical sessions: ₹500–800",
+        description: "Typical sessions: ₹200–400",
       },
       {
         icon: "✓",
@@ -106,42 +106,42 @@ export const FEATURES = [
 ];
 
 export const COMPARISON = {
-  headers: ["Aspect", "ChefLink", "Food Delivery (Swiggy/Zomato)", "Domestic Cook"],
+  headers: ["Aspect", "CheFit", "Food Delivery (Swiggy/Zomato)", "Domestic Cook"],
   rows: [
     {
       aspect: "Food Quality",
       cheflink: "Fresh, customized meals",
-      foodDelivery: "Depends on restaurant",
-      domesticCook: "Inconsistent quality",
+      foodDelivery: "Bahar ka Khana!",
+      domesticCook: "Fresh, customized meals",
     },
     {
       aspect: "Cost per Session",
-      cheflink: "₹500–800",
+      cheflink: "₹200–400",
       foodDelivery: "₹400–600 per order (daily adds up)",
-      domesticCook: "₹300–500 (variable)",
+      domesticCook: "₹300–500 (very variable)",
     },
     {
       aspect: "Reliability",
-      cheflink: "Vetted, professional chefs",
-      foodDelivery: "Reliable delivery",
+      cheflink: "100% presence guarantee upon order confirmation",
+      foodDelivery: "Delayed delivery",
       domesticCook: "Often unreliable, frequent cancellations",
     },
     {
-      aspect: "Meal Customization",
-      cheflink: "Full control over ingredients & recipes",
+      aspect: "Meal Ingredients",
+      cheflink: "We will send you the grocery list!",
       foodDelivery: "Menu set by restaurant",
       domesticCook: "Need to manage yourself",
     },
     {
       aspect: "Health Factor",
-      cheflink: "No oil reuse, premium ingredients",
-      foodDelivery: "Often heavy on oil & salt",
+      cheflink: "Trained professional chef",
+      foodDelivery: "Heavy on oil & salt",
       domesticCook: "Depends on cook",
     },
     {
       aspect: "Effort Required",
-      cheflink: "Zero effort",
-      foodDelivery: "Just ordering (still eating outside)",
+      cheflink: "Zero effort - healthier",
+      foodDelivery: "Zero effort (still eating outside)",
       domesticCook: "Manage hiring, training, quality",
     },
   ],
@@ -159,7 +159,7 @@ export const TESTIMONIALS = [
     name: "Arun Kumar",
     role: "Entrepreneur, Delhi NCR",
     quote:
-      "No more hunting for reliable cooks. ChefLink chefs are professional, on-time, and consistent.",
+      "No more hunting for reliable cooks. CheFit chefs are professional, on-time, and consistent.",
     image: "/images/testimonial-2.jpg",
   },
   {
@@ -173,7 +173,7 @@ export const TESTIMONIALS = [
 
 export const FAQ = [
   {
-    question: "How much does a ChefLink session cost?",
+    question: "How much does a CheFit session cost?",
     answer:
       "Typical sessions range from ₹500–800 depending on the chef's expertise and the cuisine. You can see the exact price before booking.",
   },
@@ -190,7 +190,7 @@ export const FAQ = [
   {
     question: "How do I pay?",
     answer:
-      "ChefLink supports UPI, Google Pay, and debit/credit cards. Payment is secure and captured after the chef confirms availability.",
+      "CheFit supports UPI, Google Pay, and debit/credit cards. Payment is secure and captured after the chef confirms availability.",
   },
   {
     question: "What if the chef cancels?",
@@ -203,12 +203,12 @@ export const FAQ = [
       "Yes! Every chef undergoes background verification, health screening, and skills assessment. Customers leave ratings and reviews.",
   },
   {
-    question: "How do I become a chef on ChefLink?",
+    question: "How do I become a chef on CheFit?",
     answer:
       "Download the app, fill out your profile, pass our background check, and start accepting bookings. Keep 100% of your earnings.",
   },
   {
-    question: "Is ChefLink available in my city?",
+    question: "Is CheFit available in my city?",
     answer:
       "We're currently launching in Hyderabad. Join the waitlist and we'll notify you when we're live in your area!",
   },
@@ -228,7 +228,7 @@ export const TEAM = [
   {
     name: "Founder Name",
     role: "Co-Founder & CEO",
-    bio: "Built ChefLink to solve the home-cooked food problem. Ex-chef turned entrepreneur.",
+    bio: "Built CheFit to solve the home-cooked food problem. Ex-chef turned entrepreneur.",
     image: "/images/team-1.jpg",
   },
 ];
@@ -253,5 +253,5 @@ export const FOOTER = {
     { name: "Twitter", url: "https://twitter.com/cheflink" },
     { name: "LinkedIn", url: "https://linkedin.com/company/cheflink" },
   ],
-  copyright: "© 2026 ChefLink. All rights reserved.",
+  copyright: "© 2026 CheFit. All rights reserved.",
 };
